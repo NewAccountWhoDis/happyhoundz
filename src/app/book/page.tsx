@@ -198,7 +198,7 @@ export default function BookPage() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 px-5 py-3 rounded-xl font-grotesk font-bold text-sm text-white transition-all hover:scale-105"
-                    style={{ backgroundColor: "#1877F2" }}
+                    style={{ backgroundColor: "#5F7154", color: "#FFF9F0" }}
                   >
                     Message on Facebook
                   </a>

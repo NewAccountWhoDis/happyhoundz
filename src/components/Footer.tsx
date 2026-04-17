@@ -30,6 +30,7 @@ export default function Footer() {
                 { href: "/", label: "Home" },
                 { href: "/services", label: "Services" },
                 { href: "/gallery", label: "Gallery" },
+                { href: "/faq", label: "FAQ" },
                 { href: "/about", label: "About" },
                 { href: "/book", label: "Book Appointment" },
               ].map(({ href, label }) => (
@@ -60,7 +61,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-4 py-2 rounded-full flex items-center justify-center text-sm font-grotesk font-bold transition-all hover:scale-105"
-                style={{ backgroundColor: "#FF6B35" }}
+                style={{ backgroundColor: "#5F7154", color: "#FFF9F0" }}
                 aria-label="Facebook"
               >
                 Facebook

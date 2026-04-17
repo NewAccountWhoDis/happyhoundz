@@ -265,7 +265,8 @@ export default function AboutPage() {
                 href={business.facebookUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center px-8 py-4 rounded-full font-grotesk font-bold text-lg border border-white/20 text-white"
+                className="inline-flex items-center justify-center px-8 py-4 rounded-full font-grotesk font-bold text-lg"
+                style={{ backgroundColor: "#5F7154", color: "#FFF9F0" }}
               >
                 Visit {business.facebookHandle}
               </a>

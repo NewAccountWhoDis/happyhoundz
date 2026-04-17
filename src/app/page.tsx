@@ -331,10 +331,31 @@ export default function HomePage() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 rounded-full px-5 py-3 font-grotesk font-bold text-sm"
-                  style={{ backgroundColor: "#FFFFFF", color: "#1A1A1A" }}
+                  style={{ backgroundColor: "#5F7154", color: "#FFF9F0" }}
                 >
                   Visit {business.facebookHandle}
                 </a>
+              </div>
+            </FadeIn>
+
+            <FadeIn delay={0.34}>
+              <div
+                className="rounded-[1.5rem] border p-6"
+                style={{ borderColor: "rgba(255,255,255,0.12)", backgroundColor: "rgba(255,255,255,0.04)" }}
+              >
+                <p className="font-grotesk font-bold text-2xl mb-3 text-white">
+                  Want to know what a first visit is like?
+                </p>
+                <p className="font-nunito text-white/76 leading-relaxed mb-5">
+                  Visit the FAQ for answers about nervous dogs, reactive dogs, timing, matting, and how appointments are approached.
+                </p>
+                <Link
+                  href="/faq"
+                  className="inline-flex items-center gap-2 rounded-full px-5 py-3 font-grotesk font-bold text-sm"
+                  style={{ backgroundColor: "#FFD23F", color: "#1A1A1A" }}
+                >
+                  Read the FAQ
+                </Link>
               </div>
             </FadeIn>
           </div>

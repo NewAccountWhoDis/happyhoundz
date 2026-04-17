@@ -10,6 +10,7 @@ const links = [
   { href: "/", label: "Home" },
   { href: "/services", label: "Services" },
   { href: "/gallery", label: "Gallery" },
+  { href: "/faq", label: "FAQ" },
   { href: "/about", label: "About" },
 ];
 
@@ -47,6 +48,12 @@ const topNavPaletteByPath: Record<
     menu: "#FFFFFF",
   },
   "/gallery": {
+    primary: "#FFFFFF",
+    accent: "#FFD23F",
+    active: "#FFD23F",
+    menu: "#FFFFFF",
+  },
+  "/faq": {
     primary: "#FFFFFF",
     accent: "#FFD23F",
     active: "#FFD23F",
