@@ -59,7 +59,7 @@ export default function HomePage() {
     <>
       <section
         className="relative overflow-hidden pt-24 pb-16 sm:pb-20"
-        style={{ backgroundColor: "#FF6B35" }}
+        style={{ backgroundColor: "#1A1A1A" }}
       >
         <div className="absolute inset-0">
           <Image
@@ -67,13 +67,14 @@ export default function HomePage() {
             alt="Heather with two dogs from Heather's Happy Houndz"
             fill
             priority
-            className="object-cover opacity-20"
+            className="object-cover"
+            style={{ opacity: 0.34 }}
           />
           <div
             className="absolute inset-0"
             style={{
               background:
-                "linear-gradient(135deg, rgba(26,26,26,0.62) 0%, rgba(26,26,26,0.28) 45%, rgba(255,107,53,0.15) 100%)",
+                "linear-gradient(135deg, rgba(20,20,20,0.7) 0%, rgba(20,20,20,0.34) 42%, rgba(20,20,20,0.12) 100%)",
             }}
           />
         </div>
