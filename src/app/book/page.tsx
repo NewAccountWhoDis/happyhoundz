@@ -75,7 +75,7 @@ export default function BookPage() {
         params.append(key, String(value));
       }
 
-      await fetch("/", {
+      await fetch("/__forms.html", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: params.toString(),
@@ -267,8 +267,7 @@ export default function BookPage() {
                   key="form"
                   name="appointment"
                   method="POST"
-                  data-netlify="true"
-                  data-netlify-honeypot="bot-field"
+                  action="/__forms.html"
                   onSubmit={handleSubmit}
                   className="bg-white rounded-3xl p-8 shadow-sm space-y-5"
                 >
