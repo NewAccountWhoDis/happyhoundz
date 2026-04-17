@@ -1,0 +1,6 @@
+{"type":"server-started","port":54108,"host":"127.0.0.1","url_host":"localhost","url":"http://localhost:54108","screen_dir":"/Users/macblack/Downloads/Web Dev/HappyHoundz/.superpowers/brainstorm/29862-1776434381/content","state_dir":"/Users/macblack/Downloads/Web Dev/HappyHoundz/.superpowers/brainstorm/29862-1776434381/state"}
+{"type":"screen-added","file":"/Users/macblack/Downloads/Web Dev/HappyHoundz/.superpowers/brainstorm/29862-1776434381/content/welcome.html"}
+{"type":"screen-added","file":"/Users/macblack/Downloads/Web Dev/HappyHoundz/.superpowers/brainstorm/29862-1776434381/content/design-directions.html"}
+{"type":"screen-added","file":"/Users/macblack/Downloads/Web Dev/HappyHoundz/.superpowers/brainstorm/29862-1776434381/content/layout-structure.html"}
+{"type":"screen-added","file":"/Users/macblack/Downloads/Web Dev/HappyHoundz/.superpowers/brainstorm/29862-1776434381/content/page-architecture.html"}
+{"type":"server-stopped","reason":"idle timeout"}

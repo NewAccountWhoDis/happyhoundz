@@ -1,0 +1,89 @@
+<h2>Page Layout & Structure</h2>
+<p class="subtitle">Single-page scrolling site with smooth anchor nav. Here's every section top to bottom — click any section you'd like to change.</p>
+
+<div style="max-width:680px;margin:0 auto;display:flex;flex-direction:column;gap:0.5rem;">
+
+  <!-- Hero -->
+  <div class="option" data-choice="hero" onclick="toggleSelect(this)" style="background:linear-gradient(90deg,#FF6B35,#FFD23F);border-radius:12px;padding:1rem 1.2rem;cursor:pointer;">
+    <div class="letter" style="background:#1a1a1a;color:#FFD23F;">1</div>
+    <div class="content">
+      <h3 style="margin:0;color:#1a1a1a;">Hero — Full Height</h3>
+      <p style="margin:0.25rem 0 0;color:#1a1a1a;opacity:0.85;">Bold animated headline: <em>"Where Every Pup Gets the Royal Treatment 🐾"</em> · Subhead: "All-inclusive, one-on-one grooming in Cohoes, NY" · Two CTAs: <strong>Book Appointment</strong> + <strong>See Services</strong> · Floating animated paw prints · Stock hero dog photo</p>
+    </div>
+  </div>
+
+  <!-- Trust Bar -->
+  <div class="option" data-choice="trust" onclick="toggleSelect(this)" style="background:#1a1a1a;border-radius:12px;padding:1rem 1.2rem;cursor:pointer;">
+    <div class="letter" style="background:#FFD23F;color:#1a1a1a;">2</div>
+    <div class="content">
+      <h3 style="margin:0;color:#FFD23F;">Trust Bar — Scrolling Strip</h3>
+      <p style="margin:0.25rem 0 0;color:#fff;opacity:0.8;">Animated marquee with stats + badges: <em>🐾 Certified Groomer · ⭐ 5-Star Reviews · 🐕 One-on-One Appointments · 📍 Cohoes, NY · 💛 Anxious Dogs Welcome</em></p>
+    </div>
+  </div>
+
+  <!-- Services -->
+  <div class="option" data-choice="services" onclick="toggleSelect(this)" style="background:#FFF9F0;border:2px solid #FF6B35;border-radius:12px;padding:1rem 1.2rem;cursor:pointer;">
+    <div class="letter" style="background:#FF6B35;color:#fff;">3</div>
+    <div class="content">
+      <h3 style="margin:0;color:#1a1a1a;">Services — Card Grid</h3>
+      <p style="margin:0.25rem 0 0;color:#555;">Cards for: Bath & Brush · Full Groom · Nail Trim · Teeth Brushing · De-shedding Treatment · Specialty Cuts · Add-ons · Each card has icon, description, and <em>"Starting at $XX"</em> placeholder pricing. Hover animations on cards.</p>
+    </div>
+  </div>
+
+  <!-- Why Heather -->
+  <div class="option" data-choice="why" onclick="toggleSelect(this)" style="background:linear-gradient(135deg,#FF6B35,#FFD23F);border-radius:12px;padding:1rem 1.2rem;cursor:pointer;">
+    <div class="letter" style="background:#fff;color:#FF6B35;">4</div>
+    <div class="content">
+      <h3 style="margin:0;color:#1a1a1a;">Why Heather — Differentiators</h3>
+      <p style="margin:0.25rem 0 0;color:#1a1a1a;opacity:0.85;">4 bold feature blocks: <em>🐾 One-on-One Only · 💛 Anxious Dog Specialist · ✅ Certified Groomer · 🏠 Clean, Welcoming Salon</em> — each with a short description pulled from real reviews</p>
+    </div>
+  </div>
+
+  <!-- Gallery -->
+  <div class="option" data-choice="gallery" onclick="toggleSelect(this)" style="background:#FFF9F0;border:2px solid #FFD23F;border-radius:12px;padding:1rem 1.2rem;cursor:pointer;">
+    <div class="letter" style="background:#FFD23F;color:#1a1a1a;">5</div>
+    <div class="content">
+      <h3 style="margin:0;color:#1a1a1a;">Gallery — Masonry Grid</h3>
+      <p style="margin:0.25rem 0 0;color:#555;">Animated masonry photo grid of groomed dogs. Stock placeholders — swap with Heather's real Facebook photos before launch. Lightbox on click. Subtle scroll-in animations.</p>
+    </div>
+  </div>
+
+  <!-- Reviews -->
+  <div class="option" data-choice="reviews" onclick="toggleSelect(this)" style="background:#1a1a1a;border-radius:12px;padding:1rem 1.2rem;cursor:pointer;">
+    <div class="letter" style="background:#FF6B35;color:#fff;">6</div>
+    <div class="content">
+      <h3 style="margin:0;color:#FFD23F;">Reviews — Scrolling Cards</h3>
+      <p style="margin:0.25rem 0 0;color:#fff;opacity:0.8;">Auto-scrolling carousel with real quotes from Facebook: Emily, Shauna, Torey, Lisa Marie, Cathy, Robert, Meredith. Dog names included. Star ratings. Coral card background with black text.</p>
+    </div>
+  </div>
+
+  <!-- About -->
+  <div class="option" data-choice="about" onclick="toggleSelect(this)" style="background:#FFF9F0;border:2px solid #FF6B35;border-radius:12px;padding:1rem 1.2rem;cursor:pointer;">
+    <div class="letter" style="background:#FF6B35;color:#fff;">7</div>
+    <div class="content">
+      <h3 style="margin:0;color:#1a1a1a;">About Heather</h3>
+      <p style="margin:0.25rem 0 0;color:#555;">Photo of Heather (placeholder) + short bio emphasizing: certified groomer, loves her job, one-on-one focus, Cohoes community. Warm and personal — not corporate.</p>
+    </div>
+  </div>
+
+  <!-- Booking -->
+  <div class="option" data-choice="booking" onclick="toggleSelect(this)" style="background:linear-gradient(90deg,#FFD23F,#FF6B35);border-radius:12px;padding:1rem 1.2rem;cursor:pointer;">
+    <div class="letter" style="background:#1a1a1a;color:#FFD23F;">8</div>
+    <div class="content">
+      <h3 style="margin:0;color:#1a1a1a;">Book an Appointment</h3>
+      <p style="margin:0.25rem 0 0;color:#1a1a1a;opacity:0.85;">Contact form: Name · Phone · Dog Name · Dog Breed · Service Requested · Preferred Date · Message. Plus a big phone number to call directly. Confirmation message on submit.</p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="option" data-choice="footer" onclick="toggleSelect(this)" style="background:#1a1a1a;border-radius:12px;padding:1rem 1.2rem;cursor:pointer;">
+    <div class="letter" style="background:#555;color:#fff;">9</div>
+    <div class="content">
+      <h3 style="margin:0;color:#fff;">Footer</h3>
+      <p style="margin:0.25rem 0 0;color:#aaa;">Address (Cohoes, NY) · Hours (placeholder) · Phone · Facebook/Instagram links · "All-inclusive one-on-one appointments" tagline · Paw print logo</p>
+    </div>
+  </div>
+
+</div>
+
+<p class="subtitle" style="margin-top:1.5rem;">Click any section you want to change, or tell me in the terminal. Happy with the overall flow? →</p>

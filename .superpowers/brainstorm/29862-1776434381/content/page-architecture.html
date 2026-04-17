@@ -1,0 +1,62 @@
+<h2>Multi-Page Architecture</h2>
+<p class="subtitle">5 pages — each with its own hero, layout pattern, and animation personality. Nav links across all pages. Nothing here feels like a scroll-down-forever template.</p>
+
+<div style="max-width:720px;margin:0 auto;display:flex;flex-direction:column;gap:1rem;">
+
+  <!-- Home -->
+  <div class="option" data-choice="home" onclick="toggleSelect(this)">
+    <div class="letter" style="background:linear-gradient(135deg,#FF6B35,#FFD23F);color:#1a1a1a;font-size:1.1rem;">🏠</div>
+    <div class="content">
+      <h3>/ — Home</h3>
+      <p>The <strong>energy page</strong>. Full-height animated hero with floating paw prints + bold headline. Scrolling trust bar. 3-card services <em>preview</em> (teaser, links to /services). "Why Heather" 4-block section. 3 cherry-picked review quotes. Big CTA banner → /book.</p>
+      <p style="font-size:0.85rem;color:#888;margin-top:0.4rem;">Animation: headline words animate in one by one · paw prints float up on load · CTA button pulses</p>
+    </div>
+  </div>
+
+  <!-- Services -->
+  <div class="option" data-choice="services" onclick="toggleSelect(this)">
+    <div class="letter" style="background:linear-gradient(135deg,#FF6B35,#FFD23F);color:#1a1a1a;font-size:1.1rem;">✂️</div>
+    <div class="content">
+      <h3>/services — Services & Pricing</h3>
+      <p>Page hero with coral background + scissors/paw illustration. Full grid of all services organized in categories: <strong>Baths</strong> · <strong>Full Grooms</strong> · <strong>A La Carte</strong> · <strong>Add-ons</strong>. Each card has icon, name, description, and "Starting at $XX" placeholder. Sticky sidebar or tab filter on desktop.</p>
+      <p style="font-size:0.85rem;color:#888;margin-top:0.4rem;">Animation: cards stagger-animate in as you scroll · price badge bounces on hover</p>
+    </div>
+  </div>
+
+  <!-- Gallery -->
+  <div class="option" data-choice="gallery" onclick="toggleSelect(this)">
+    <div class="letter" style="background:linear-gradient(135deg,#FF6B35,#FFD23F);color:#1a1a1a;font-size:1.1rem;">📸</div>
+    <div class="content">
+      <h3>/gallery — The Houndz Gallery</h3>
+      <p>Yellow-background page with bold "Meet the Happy Houndz 🐾" header. Masonry grid of dog photos — stock placeholders tagged by breed type, easy to swap for Heather's real Facebook photos. Lightbox on click. Optional: dog name captions pulled from reviews (Nova, Kahlo, Remi, Louie, Gunner, Truffles, Chuckles).</p>
+      <p style="font-size:0.85rem;color:#888;margin-top:0.4rem;">Animation: photos fade + scale in on scroll · lightbox slides between images</p>
+    </div>
+  </div>
+
+  <!-- About -->
+  <div class="option" data-choice="about" onclick="toggleSelect(this)">
+    <div class="letter" style="background:linear-gradient(135deg,#FF6B35,#FFD23F);color:#1a1a1a;font-size:1.1rem;">🐾</div>
+    <div class="content">
+      <h3>/about — Meet Heather</h3>
+      <p>Dark (near-black) page background for contrast — makes the coral/yellow pop harder. Split layout: Heather photo left, bio right. Section below: <strong>"The Happy Houndz Promise"</strong> with the 4 differentiators expanded into real paragraphs. Full reviews carousel at bottom — all 7 real review quotes.</p>
+      <p style="font-size:0.85rem;color:#888;margin-top:0.4rem;">Animation: photo slides in from left · text reveals word by word · reviews auto-scroll</p>
+    </div>
+  </div>
+
+  <!-- Book -->
+  <div class="option" data-choice="book" onclick="toggleSelect(this)">
+    <div class="letter" style="background:linear-gradient(135deg,#FF6B35,#FFD23F);color:#1a1a1a;font-size:1.1rem;">📅</div>
+    <div class="content">
+      <h3>/book — Book an Appointment</h3>
+      <p>Coral hero banner: "Ready for a Happy Houndz Glow-Up? 🐾". Two columns: <strong>left</strong> = big phone number + hours + address + Facebook link. <strong>Right</strong> = contact form (Name, Phone, Dog Name, Breed, Service, Preferred Date/Time, Notes). Success state with animated paw print confetti on submit.</p>
+      <p style="font-size:0.85rem;color:#888;margin-top:0.4rem;">Animation: form fields animate in on load · submit button wiggles · confetti on success</p>
+    </div>
+  </div>
+
+</div>
+
+<div style="margin-top:1.5rem;background:#fff9f0;border:2px solid #FFD23F;border-radius:12px;padding:1rem 1.2rem;">
+  <p style="margin:0;font-size:0.9rem;"><strong>Navigation:</strong> Sticky top nav on all pages — logo left, links right (Home · Services · Gallery · About · Book). On mobile: hamburger menu slides in from right with coral background. "Book Now" nav button always styled as a bold pill CTA in yellow.</p>
+</div>
+
+<p class="subtitle" style="margin-top:1.5rem;">Click any page you want to change, or confirm in terminal → Does this page breakdown feel right?</p>
