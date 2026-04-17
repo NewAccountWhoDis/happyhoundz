@@ -24,12 +24,6 @@ const servicePreview = [
   },
 ];
 
-const studioNotes = [
-  "One dog at a time, with no chaotic salon overlap.",
-  "Comfort-first pacing for puppies, anxious dogs, and sensitive coats.",
-  "A warmer, more personal feel than a standard grooming storefront.",
-];
-
 function FadeIn({
   children,
   delay = 0,
@@ -79,12 +73,12 @@ export default function HomePage() {
           />
         </div>
 
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 grid grid-cols-1 lg:grid-cols-[1.05fr_0.95fr] gap-10 items-end">
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="text-white"
+            className="max-w-4xl text-white"
           >
             <p className="font-nunito font-bold text-sm uppercase tracking-[0.26em] mb-6 text-white/80">
               {business.city}, {business.state} • Boutique Dog Grooming
@@ -110,47 +104,6 @@ export default function HomePage() {
               >
                 View Services
               </Link>
-            </div>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.1 }}
-          >
-            <div
-              className="rounded-[2rem] p-6 sm:p-8 backdrop-blur-sm"
-              style={{ backgroundColor: "rgba(255,249,240,0.16)" }}
-            >
-              <div className="grid grid-cols-2 gap-4 mb-6">
-                <div className="rounded-[1.5rem] bg-white/95 p-5 text-center">
-                  <p className="font-grotesk font-bold text-4xl" style={{ color: "#1A1A1A" }}>
-                    1:1
-                  </p>
-                  <p className="font-nunito text-sm mt-2 text-gray-700">
-                    one dog at a time
-                  </p>
-                </div>
-                <div className="rounded-[1.5rem] bg-white/95 p-5 text-center">
-                  <p className="font-grotesk font-bold text-4xl" style={{ color: "#1A1A1A" }}>
-                    2026
-                  </p>
-                  <p className="font-nunito text-sm mt-2 text-gray-700">
-                    locally established
-                  </p>
-                </div>
-              </div>
-
-              <div className="rounded-[1.5rem] bg-[#1A1A1A] p-6 text-white">
-                <p className="font-grotesk font-bold text-2xl mb-3">
-                  The studio promise
-                </p>
-                <div className="space-y-3 font-nunito text-white/78 leading-relaxed">
-                  {studioNotes.map((note) => (
-                    <p key={note}>{note}</p>
-                  ))}
-                </div>
-              </div>
             </div>
           </motion.div>
         </div>
